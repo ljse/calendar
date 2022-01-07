@@ -1,0 +1,17 @@
+.calendar-container {
+    width: 100%;
+    .calendar {
+        &__header {}
+        &__body {}
+        &__content {
+            display: flex;
+            align-items: center;
+        }
+        &__date {
+            flex: 1;
+        }
+        &__event {
+            flex: 1;
+        }
+    }
+}
